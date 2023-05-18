@@ -29,9 +29,7 @@ const Feedback = () => (
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          "Given the advancements in technology, the metaverse has emerged as a
-          valuable tool for modern-day work, often referred to as Web 3.0.
-          Leveraging the metaverse empowers individuals to explore boundless
+          "Leveraging the metaverse empowers individuals to explore boundless
           possibilities and redefine their digital experiences, seamlessly
           integrating it into various facets of their lives."
         </p>

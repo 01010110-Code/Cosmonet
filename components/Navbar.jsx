@@ -50,7 +50,7 @@ const Navbar = () => {
           <img
             src="/menu.svg"
             alt="menu"
-            className="w-full h-full object-contain"
+            className="w-full h-full object-contain hover:scale-120  hover:shadow-white"
           />
         </button>
       </div>
