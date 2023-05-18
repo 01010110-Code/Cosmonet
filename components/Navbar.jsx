@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import { motion } from "framer-motion";
 import { scroller } from "react-scroll";
 
@@ -34,24 +33,64 @@ const Navbar = () => {
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
       >
-        <img
-          src="/search.svg"
-          alt="search"
-          className="w-[24px] h-[24px] object-contain"
-        />
-        <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white cursor-pointer hover:cursor-pointer hover:brightness-125 hover:shadow-white">
+        <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white hover:cursor-pointer hover:brightness-125 hover:shadow-white transition-all duration-200">
           COSMONET
         </h2>
+
         <button
-          className="w-[24px] h-[24px] border-none bg-transparent"
+          className="w-[24px] h-[24px] border-none bg-transparent md:hidden"
           onClick={toggleMenu}
         >
           <img
             src="/menu.svg"
             alt="menu"
-            className="w-full h-full object-contain hover:scale-120  hover:shadow-white"
+            className="w-full h-full object-contain hover:scale-120 hover:shadow-white"
           />
         </button>
+        <ul className="hidden md:flex gap-4">
+          <li
+            className="cursor-pointer hover:text-blue-500"
+            onClick={() => scrollToSection("hero")}
+          >
+            Home
+          </li>
+          <li
+            className="cursor-pointer hover:text-blue-500"
+            onClick={() => scrollToSection("about")}
+          >
+            About
+          </li>
+          <li
+            className="cursor-pointer hover:text-blue-500"
+            onClick={() => scrollToSection("explore")}
+          >
+            Explore
+          </li>
+          <li
+            className="cursor-pointer hover:text-blue-500"
+            onClick={() => scrollToSection("feedback")}
+          >
+            Feedback
+          </li>
+          <li
+            className="cursor-pointer hover:text-blue-500"
+            onClick={() => scrollToSection("getstarted")}
+          >
+            GetStarted
+          </li>
+          <li
+            className="cursor-pointer hover:text-blue-500"
+            onClick={() => scrollToSection("whatsnew")}
+          >
+            WhatsNew
+          </li>
+          <li
+            className="cursor-pointer hover:text-blue-500"
+            onClick={() => scrollToSection("world")}
+          >
+            World
+          </li>
+        </ul>
       </div>
       {isMenuOpen && (
         <div className="absolute top-full left-0 right-0 bg-dark">
@@ -99,8 +138,6 @@ const Navbar = () => {
               World
             </li>
           </ul>
-
-          {/* FIX THE ISSUE WITH THE MENU SHOWING BELOW THE HERO SECTION'S TEXT*/}
         </div>
       )}
     </motion.nav>
