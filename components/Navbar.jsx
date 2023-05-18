@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useAnimation } from "framer-motion";
 
 import { motion } from "framer-motion";
 import { scroller } from "react-scroll";
