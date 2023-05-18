@@ -71,18 +71,22 @@ export const insights = [
 export const socials = [
   {
     name: "twitter",
-    url: "/twitter.svg",
+    img: "/twitter.svg",
+    url: "https://www.twitter.com",
   },
   {
     name: "linkedin",
-    url: "/linkedin.svg",
+    img: "/linkedin.svg",
+    url: "https://www.linkedin.com",
   },
   {
     name: "instagram",
-    url: "/instagram.svg",
+    img: "/instagram.svg",
+    url: "https://www.instagram.com",
   },
   {
     name: "facebook",
-    url: "/facebook.svg",
+    img: "/facebook.svg",
+    url: "https://www.facebook.com",
   },
 ];
