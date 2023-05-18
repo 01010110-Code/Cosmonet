@@ -100,6 +100,8 @@ const Navbar = () => {
               World
             </li>
           </ul>
+
+          {/* FIX THE ISSUE WITH THE MENU SHOWING BELOW THE HERO SECTION'S TEXT*/}
         </div>
       )}
     </motion.nav>
