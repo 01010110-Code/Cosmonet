@@ -16,12 +16,12 @@ const Navbar = () => {
 
   const scrollToSection = (sectionId) => {
     scroller.scrollTo(sectionId, {
-      duration: 500, // Adjust the scroll duration as needed
-      offset: -100, // Adjust the scroll offset to consider any fixed headers or other elements
-      smooth: true, // Enable smooth scrolling
+      duration: 500,
+      offset: -100,
+      smooth: true,
     });
 
-    setMenuOpen(false); // Close the menu after scrolling to a section
+    setMenuOpen(false);
   };
 
   return (
