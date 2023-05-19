@@ -47,7 +47,9 @@ const Navbar = () => {
             className="w-full h-full object-contain hover:scale-120 hover:shadow-white"
           />
         </button>
-        <ul className="hidden md:flex gap-6 mr-20 pr-16">
+        <ul
+          className={`${isMenuOpen ? "" : "hidden"} md:flex gap-6 mr-20 pr-16`}
+        >
           <li
             className="cursor-pointer hover:text-purple-500 text-white"
             onClick={() => scrollToSection("about")}
@@ -87,7 +89,7 @@ const Navbar = () => {
         </ul>
       </div>
       {isMenuOpen && (
-        <div className="absolute top-full left-0 right-0 bg-dark">
+        <div className="absolute top-full left-0 right-0 bg-dark z-10">
           <ul className="flex flex-col items-center py-4">
             <li
               className="py-2 cursor-pointer hover:text-purple-500"
