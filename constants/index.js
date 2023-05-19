@@ -27,9 +27,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  "Find a world that suits you and you want to enter",
-  "Enter the world by reading basmalah to be safe",
-  "No need to beat around the bush, just stay on the gas and have fun",
+  "Explore and discover a world that resonates with you, one that you're eager to step into.",
+  "Begin your journey into the world by reciting the basmalah, ensuring a safe entry.",
+  "No need for hesitation, accelerate and enjoy the exhilarating ride without holding back.",
 ];
 
 export const newFeatures = [

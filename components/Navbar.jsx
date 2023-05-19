@@ -33,7 +33,7 @@ const Navbar = () => {
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
       >
-        <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white hover:cursor-pointer hover:brightness-125 hover:shadow-white transition-all duration-200">
+        <h2 className="font-extrabold text-[24px] text-white hover:cursor-pointer hover:brightness-125 hover:shadow-white">
           COSMONET
         </h2>
 
@@ -47,45 +47,39 @@ const Navbar = () => {
             className="w-full h-full object-contain hover:scale-120 hover:shadow-white"
           />
         </button>
-        <ul className="hidden md:flex gap-4">
+        <ul className="hidden md:flex gap-6 mr-20 pr-16">
           <li
-            className="cursor-pointer hover:text-blue-500"
-            onClick={() => scrollToSection("hero")}
-          >
-            Home
-          </li>
-          <li
-            className="cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-purple-500 text-white"
             onClick={() => scrollToSection("about")}
           >
             About
           </li>
           <li
-            className="cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-purple-500 text-white"
             onClick={() => scrollToSection("explore")}
           >
             Explore
           </li>
           <li
-            className="cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-purple-500 text-white"
             onClick={() => scrollToSection("feedback")}
           >
             Feedback
           </li>
           <li
-            className="cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-purple-500 text-white"
             onClick={() => scrollToSection("getstarted")}
           >
-            GetStarted
+            Get Started
           </li>
           <li
-            className="cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-purple-500 text-white"
             onClick={() => scrollToSection("whatsnew")}
           >
-            WhatsNew
+            What's New
           </li>
           <li
-            className="cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-purple-500 text-white"
             onClick={() => scrollToSection("world")}
           >
             World
@@ -96,43 +90,37 @@ const Navbar = () => {
         <div className="absolute top-full left-0 right-0 bg-dark">
           <ul className="flex flex-col items-center py-4">
             <li
-              className="py-2 cursor-pointer hover:text-blue-500"
-              onClick={() => scrollToSection("hero")}
-            >
-              Home
-            </li>
-            <li
-              className="py-2 cursor-pointer hover:text-blue-500"
+              className="py-2 cursor-pointer hover:text-purple-500"
               onClick={() => scrollToSection("about")}
             >
               About
             </li>
             <li
-              className="py-2 cursor-pointer hover:text-blue-500"
+              className="py-2 cursor-pointer hover:text-purple-500"
               onClick={() => scrollToSection("explore")}
             >
               Explore
             </li>
             <li
-              className="py-2 cursor-pointer hover:text-blue-500"
+              className="py-2 cursor-pointer hover:text-purple-500"
               onClick={() => scrollToSection("feedback")}
             >
               Feedback
             </li>
             <li
-              className="py-2 cursor-pointer hover:text-blue-500"
+              className="py-2 cursor-pointer hover:text-purple-500"
               onClick={() => scrollToSection("getstarted")}
             >
-              GetStarted
+              Get Started
             </li>
             <li
-              className="py-2 cursor-pointer hover:text-blue-500"
+              className="py-2 cursor-pointer hover:text-purple-500"
               onClick={() => scrollToSection("whatsnew")}
             >
-              WhatsNew
+              What's New
             </li>
             <li
-              className="py-2 cursor-pointer hover:text-blue-500"
+              className="py-2 cursor-pointer hover:text-purple-500"
               onClick={() => scrollToSection("world")}
             >
               World
