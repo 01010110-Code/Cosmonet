@@ -5,9 +5,9 @@ import "../styles/globals.css";
 const MyApp = ({ Component, pageProps }) => (
   <>
     <Head>
-      <title>Cosmonet</title>
+      <title>Cosmonet - Embark on a Virtual Odyssey</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="/favico.ico" />
+      <link rel="icon" href="/purple.png" />
       <link rel="preconnect" href="https://stijndv.com" />
       <link
         rel="stylesheet"
