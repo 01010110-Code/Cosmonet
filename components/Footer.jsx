@@ -43,7 +43,7 @@ const Footer = () => (
             COSMONET
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © {currentYear} CosmoNet. All rights reserved.
+            Copyright © {currentYear} Cosmonet. All rights reserved.
           </p>
 
           <div className="flex gap-4">
