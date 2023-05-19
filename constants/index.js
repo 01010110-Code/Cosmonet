@@ -50,21 +50,22 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: "/planet-06.png",
-    title: "The launch of the Metaverse makes Elon musk ketar-ketir",
+    title: "The Launch of the Metaverse Takes the World by Storm",
     subtitle:
-      "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+      "The emergence of the Metaverse has sparked a global phenomenon, captivating the imagination of millions.",
   },
   {
     imgUrl: "/planet-07.png",
-    title: "7 tips to easily master the madness of the Metaverse",
+    title: "Mastering the Madness of the Metaverse: 7 Expert Tips",
     subtitle:
-      "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
+      "Embarking on a journey through the Metaverse can be exhilarating yet overwhelming.",
   },
   {
     imgUrl: "/planet-08.png",
-    title: "With one platform you can explore the whole world virtually",
+    title:
+      "Unleash Your Wanderlust: Explore the World Virtually on a Single Platform",
     subtitle:
-      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+      "Imagine being able to explore the vast wonders of the world without leaving your seat. ",
   },
 ];
 

@@ -31,7 +31,7 @@ const About = () => (
         <span className="font-extrabold text-white">
           virtual reality (VR) devices
         </span>{" "}
-        CosmoNet transports you to limitless worlds, allowing you to tangibly{" "}
+        ,Cosmonet transports you to limitless worlds, allowing you to tangibly{" "}
         <span className="font-extrabold text-white"> feel the wonders</span> of
         this digital universe.
       </motion.p>
