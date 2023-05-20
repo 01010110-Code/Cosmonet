@@ -1,0 +1,1 @@
+Fix one last bug on the menu on the mobile version.
