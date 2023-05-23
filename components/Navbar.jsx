@@ -88,48 +88,6 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      {isMenuOpen && (
-        <div className="absolute top-full left-0 right-0 bg-dark z-10">
-          <ul className="flex flex-col items-center py-4">
-            <li
-              className="py-2 cursor-pointer hover:text-purple-500"
-              onClick={() => scrollToSection("about")}
-            >
-              About
-            </li>
-            <li
-              className="py-2 cursor-pointer hover:text-purple-500"
-              onClick={() => scrollToSection("explore")}
-            >
-              Explore
-            </li>
-            <li
-              className="py-2 cursor-pointer hover:text-purple-500"
-              onClick={() => scrollToSection("feedback")}
-            >
-              Feedback
-            </li>
-            <li
-              className="py-2 cursor-pointer hover:text-purple-500"
-              onClick={() => scrollToSection("getstarted")}
-            >
-              Get Started
-            </li>
-            <li
-              className="py-2 cursor-pointer hover:text-purple-500"
-              onClick={() => scrollToSection("whatsnew")}
-            >
-              What's New
-            </li>
-            <li
-              className="py-2 cursor-pointer hover:text-purple-500"
-              onClick={() => scrollToSection("world")}
-            >
-              World
-            </li>
-          </ul>
-        </div>
-      )}
     </motion.nav>
   );
 };
