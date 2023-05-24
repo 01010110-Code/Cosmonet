@@ -11,6 +11,9 @@ const Navbar = () => {
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   const scrollToSection = (sectionId) => {
     scroller.scrollTo(sectionId, {
@@ -37,16 +40,30 @@ const Navbar = () => {
           COSMONET
         </h2>
 
-        <button
-          className="w-[24px] h-[24px] border-none bg-transparent md:hidden"
-          onClick={toggleMenu}
-        >
-          <img
-            src="/menu.svg"
-            alt="menu"
-            className="w-full h-full object-contain hover:scale-120 hover:shadow-white"
-          />
-        </button>
+        {isMenuOpen ? (
+          <button
+            className="w-[24px] h-[24px] border-none bg-transparent"
+            onClick={closeMenu}
+          >
+            <img
+              src="/close.png"
+              alt="close"
+              className="w-full h-full object-contain hover:scale-120 hover:shadow-white"
+            />
+          </button>
+        ) : (
+          <button
+            className="w-[24px] h-[24px] border-none bg-transparent md:hidden"
+            onClick={toggleMenu}
+          >
+            <img
+              src="/menu.svg"
+              alt="menu"
+              className="w-full h-full object-contain hover:scale-120 hover:shadow-white"
+            />
+          </button>
+        )}
+
         <ul
           className={`${isMenuOpen ? "" : "hidden"} md:flex gap-6 mr-20 pr-16`}
         >
