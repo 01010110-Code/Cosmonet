@@ -16,18 +16,17 @@ Clone the repository:
 
 
 
-git clone https://github.com/01010110-Code/Cosmonet.git
+``` git clone https://github.com/01010110-Code/Cosmonet.git ```
 Install dependencies:
 
 
-cd Cosmonet
-npm install
+``` cd Cosmonet ```
+``` npm install ```
 
 Run the development server:
 
-arduino
-Copy code
-npm run dev
+``` npm run dev ```
+
 This will start the Next.js development server and make the Cosmonet application accessible at http://localhost:3000.
 
 ## Contributing
