@@ -1,6 +1,10 @@
 # Cosmonet
 **Cosmonet** is a Metaverse portal designed to provide a captivating and immersive experience for space enthusiasts. This repository contains the front-end codebase for Cosmonet, built using Next.js, Framer Motion, and Tailwind CSS.
 
+## Screenshot
+
+ ![Screenshot](/public/cosmonet-screenshot.png)
+
 ## Technologies Used:
 
 **Next.js**: Next.js is a React framework that enables server-side rendering (SSR) and static site generation (SSG). It allows for efficient and optimized rendering of web pages, providing a fast and seamless user experience. Next.js also provides features like automatic code splitting, routing, and serverless functions, making it an excellent choice for building scalable web applications.
