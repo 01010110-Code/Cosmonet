@@ -1,6 +1,6 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-import "../styles/globals.css";
+import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps }) => (
   <>

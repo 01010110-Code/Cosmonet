@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
-import { scroller } from "react-scroll";
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import { scroller } from 'react-scroll';
 
-import styles from "../styles";
-import { navVariants } from "../utils/motion";
+import styles from '../styles';
+import { navVariants } from '../utils/motion';
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -65,41 +65,41 @@ const Navbar = () => {
         )}
 
         <ul
-          className={`${isMenuOpen ? "" : "hidden"} md:flex gap-6 mr-20 pr-16`}
+          className={`${isMenuOpen ? '' : 'hidden'} md:flex gap-6 mr-20 pr-16`}
         >
           <li
             className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection("about")}
+            onClick={() => scrollToSection('about')}
           >
             About
           </li>
           <li
             className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection("explore")}
+            onClick={() => scrollToSection('explore')}
           >
             Explore
           </li>
           <li
             className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection("feedback")}
+            onClick={() => scrollToSection('feedback')}
           >
             Feedback
           </li>
           <li
             className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection("getstarted")}
+            onClick={() => scrollToSection('getstarted')}
           >
             Get Started
           </li>
           <li
             className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection("whatsnew")}
+            onClick={() => scrollToSection('whatsnew')}
           >
             What's New
           </li>
           <li
             className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection("world")}
+            onClick={() => scrollToSection('world')}
           >
             World
           </li>
