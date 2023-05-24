@@ -22,6 +22,7 @@ Install dependencies:
 
 
 ``` cd Cosmonet ```
+
 ``` npm install ```
 
 Run the development server:
@@ -38,5 +39,5 @@ Create a new branch for your feature or bug fix.
 Commit your changes and push the branch to your forked repository.
 Submit a pull request with a detailed description of your changes.
 
-##License
+## License
 The Cosmonet project is licensed under the MIT License. Feel free to modify and distribute the codebase as per the terms of the license.
