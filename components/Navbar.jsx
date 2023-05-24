@@ -42,7 +42,7 @@ const Navbar = () => {
 
         {isMenuOpen ? (
           <button
-            className="w-[24px] h-[24px] border-none bg-transparent"
+            className="w-[24px] h-[24px] border-none bg-transparent absolute right-8 top-4 z-10"
             onClick={closeMenu}
           >
             <img
