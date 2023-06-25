@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { scroller } from 'react-scroll';
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { scroller } from "react-scroll";
 
-import styles from '../styles';
-import { navVariants } from '../utils/motion';
+import styles from "../styles";
+import { navVariants } from "../utils/motion";
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -65,45 +65,61 @@ const Navbar = () => {
         )}
 
         <ul
-          className={`${isMenuOpen ? '' : 'hidden'} md:flex gap-6 mr-20 pr-16`}
+          className={`${
+            isMenuOpen ? "" : "hidden"
+          } md:flex gap-6 mr-20 mt-2 pr-16`}
         >
           <li
-            className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection('about')}
+            className="hover:cursor-pointer hover:text-purple-500 text-white"
+            onClick={() => scrollToSection("about")}
           >
             About
           </li>
           <li
-            className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection('explore')}
+            className="hover:cursor-pointer hover:text-purple-500 text-white"
+            onClick={() => scrollToSection("explore")}
           >
             Explore
           </li>
           <li
-            className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection('feedback')}
+            className="hover:cursor-pointer hover:text-purple-500 text-white"
+            onClick={() => scrollToSection("feedback")}
           >
             Feedback
           </li>
           <li
-            className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection('getstarted')}
+            className="hover:cursor-pointer hover:text-purple-500 text-white"
+            onClick={() => scrollToSection("getstarted")}
           >
             Get Started
           </li>
           <li
-            className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection('whatsnew')}
+            className="hover:cursor-pointer hover:text-purple-500 text-white"
+            onClick={() => scrollToSection("whatsnew")}
           >
             What's New
           </li>
           <li
-            className="cursor-pointer hover:text-purple-500 text-white"
-            onClick={() => scrollToSection('world')}
+            className="hover:cursor-pointer hover:text-purple-500 text-white"
+            onClick={() => scrollToSection("world")}
           >
             World
           </li>
+          {/*  move this one to be an inline button */}
         </ul>
+        <button
+          type="button"
+          className="flex items-center h-fit py-4 px-6 bg-purple-500 rounded-[32px] gap-[12px] hover:scale-105 hover:brightness-110 shadow-2xl"
+        >
+          <img
+            src="/headset.svg"
+            alt="headset"
+            className="w-[24px] h-[24px] object-contain"
+          />
+          <span className="font-normal text-[16px] text-white">
+            Try Cosmonet Now{" "}
+          </span>
+        </button>
       </div>
     </motion.nav>
   );

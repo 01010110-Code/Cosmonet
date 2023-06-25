@@ -23,7 +23,7 @@ const Footer = () => (
         </h4>
         <button
           type="button"
-          className="flex items-center h-fit py-4 px-6 bg-purple-500 rounded-[32px] gap-[12px]"
+          className="flex items-center h-fit py-4 px-6 bg-purple-500 rounded-[32px] gap-[12px] hover:scale-105 hover:brightness-110 shadow-2xl"
         >
           <img
             src="/headset.svg"
