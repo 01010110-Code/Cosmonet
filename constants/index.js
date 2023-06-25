@@ -3,26 +3,31 @@ export const exploreWorlds = [
     id: "world-1",
     imgUrl: "/planet-01.png",
     title: "The Hogwarts",
+    subtitle: "Explore Hogwarts with Harry and the rest of the students",
   },
   {
     id: "world-2",
     imgUrl: "/planet-02.png",
     title: "The Upside Down",
+    subtitle: "Explore The Upside Down with Harry and the rest of the students",
   },
   {
     id: "world-3",
     imgUrl: "/planet-03.png",
     title: "Kadirojo Permai",
+    subtitle: "Explore Hogwarts with Harry and the rest of the students",
   },
   {
     id: "world-4",
     imgUrl: "/planet-04.png",
     title: "Paradise Island",
+    subtitle: "Explore Paradise Island with Harry and the rest of the students",
   },
   {
     id: "world-5",
     imgUrl: "/planet-05.png",
     title: "Hawkins Labs",
+    subtitle: "Explore Hawkins Labs with Harry and the rest of the students",
   },
 ];
 
